@@ -1,0 +1,19 @@
+opencv-python==4.13.0.92
+numpy>=1.24
+matplotlib
+Pillow
+# Added in later stages (OCR model + backend) - uncomment as we build them:
+# torch
+# transformers
+# fastapi
+# uvicorn
+# rapidfuzz
+# python-multipart
+# sqlalchemy
+
+# Added for Stage B fine-tuning:
+transformers==4.57.6
+sentencepiece==0.2.1
+jiwer
+accelerate
+easyocr

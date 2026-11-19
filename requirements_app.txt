@@ -1,0 +1,10 @@
+# Web app (add to the packages you already installed for OCR: torch, transformers==4.57.6, sentencepiece, jiwer, accelerate)
+flask>=3.0
+flask-sqlalchemy>=3.1
+rapidfuzz
+pillow
+opencv-python
+numpy
+# Optional
+easyocr          # automatic line detection on full-page photos
+pymysql          # only if you switch DATABASE_URL to MySQL
